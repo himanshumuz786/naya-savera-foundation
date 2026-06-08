@@ -1,0 +1,453 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Naya Savera Foundation | Empowering Lives, Inspiring Change</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#fdfdfd;
+color:#333;
+}
+
+header{
+background:linear-gradient(135deg,#ff7b00,#ffb347);
+color:white;
+padding:20px 8%;
+position:sticky;
+top:0;
+z-index:1000;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+font-size:28px;
+font-weight:700;
+}
+
+.logo span{
+color:#fff7d6;
+}
+
+.nav-links{
+display:flex;
+gap:25px;
+}
+
+.nav-links a{
+text-decoration:none;
+color:white;
+font-weight:500;
+}
+
+.hero{
+min-height:90vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+padding:50px 10%;
+background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
+url('https://images.unsplash.com/photo-1529390079861-591de354faf5?auto=format&fit=crop&w=1400&q=80');
+background-size:cover;
+background-position:center;
+color:white;
+}
+
+.hero-content h1{
+font-size:60px;
+margin-bottom:20px;
+}
+
+.hero-content p{
+font-size:20px;
+max-width:800px;
+margin:auto;
+line-height:1.8;
+}
+
+.btn{
+display:inline-block;
+margin-top:30px;
+padding:15px 35px;
+background:#ff7b00;
+color:white;
+text-decoration:none;
+border-radius:30px;
+font-weight:600;
+transition:.3s;
+}
+
+.btn:hover{
+background:#e66a00;
+}
+
+section{
+padding:80px 10%;
+}
+
+.section-title{
+text-align:center;
+font-size:40px;
+margin-bottom:20px;
+color:#ff7b00;
+}
+
+.section-subtitle{
+text-align:center;
+max-width:900px;
+margin:auto;
+line-height:1.8;
+color:#666;
+margin-bottom:50px;
+}
+
+.about-grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:40px;
+align-items:center;
+}
+
+.about-box{
+background:white;
+padding:30px;
+border-radius:15px;
+box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+.about-box h3{
+margin-bottom:15px;
+color:#ff7b00;
+}
+
+.about-box p{
+line-height:1.8;
+}
+
+.programs{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:15px;
+box-shadow:0 5px 20px rgba(0,0,0,.08);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.card h3{
+margin:15px 0;
+color:#ff7b00;
+}
+
+.card p{
+line-height:1.7;
+}
+
+.founder{
+background:#fff7f0;
+}
+
+.founder-card{
+max-width:900px;
+margin:auto;
+background:white;
+padding:40px;
+border-radius:15px;
+box-shadow:0 5px 20px rgba(0,0,0,.08);
+text-align:center;
+}
+
+.avatar{
+width:120px;
+height:120px;
+border-radius:50%;
+background:#ff7b00;
+color:white;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:40px;
+font-weight:bold;
+margin:auto;
+margin-bottom:20px;
+}
+
+.linkedin{
+display:inline-block;
+margin-top:20px;
+padding:12px 25px;
+background:#0077b5;
+color:white;
+text-decoration:none;
+border-radius:25px;
+}
+
+.contact{
+background:#fafafa;
+}
+
+.contact-box{
+max-width:800px;
+margin:auto;
+text-align:center;
+}
+
+.contact-box p{
+margin:15px 0;
+font-size:18px;
+}
+
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:30px;
+}
+
+footer p{
+opacity:.8;
+}
+
+@media(max-width:768px){
+
+.hero-content h1{
+font-size:38px;
+}
+
+.hero-content p{
+font-size:17px;
+}
+
+.about-grid{
+grid-template-columns:1fr;
+}
+
+.nav-links{
+display:none;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<nav>
+<div class="logo">🌅 Naya Savera <span>Foundation</span></div>
+
+<div class="nav-links">
+<a href="#about">About</a>
+<a href="#programs">Programs</a>
+<a href="#founder">Founder</a>
+<a href="#contact">Contact</a>
+</div>
+</nav>
+</header>
+
+<section class="hero">
+
+<div class="hero-content">
+
+<h1>Empowering Lives, Inspiring Change</h1>
+
+<p>
+Naya Savera Foundation is a social initiative based in Pune, Maharashtra,
+working towards education, community welfare, youth development,
+environmental sustainability, and social upliftment.
+We believe every individual deserves equal opportunities to grow and thrive.
+</p>
+
+<a href="#contact" class="btn">Join Our Mission</a>
+
+</div>
+
+</section>
+
+<section id="about">
+
+<h2 class="section-title">About Us</h2>
+
+<p class="section-subtitle">
+Naya Savera Foundation was established with a vision to create a brighter future
+through compassion, community engagement, and meaningful action.
+We aim to bring positive change by supporting individuals and communities
+through awareness, education, and collaborative initiatives.
+</p>
+
+<div class="about-grid">
+
+<div class="about-box">
+<h3>🌟 Our Vision</h3>
+<p>
+To build an inclusive society where every individual has access to opportunities,
+resources, and support needed for a dignified and fulfilling life.
+</p>
+</div>
+
+<div class="about-box">
+<h3>🎯 Our Mission</h3>
+<p>
+To empower communities through education, health awareness,
+environmental initiatives, youth development, and social welfare programs
+that create sustainable impact.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="programs">
+
+<h2 class="section-title">Our Focus Areas</h2>
+
+<div class="programs">
+
+<div class="card">
+<h3>📚 Education & Skill Development</h3>
+<p>
+Promoting learning opportunities, career guidance,
+and skill-building programs for youth.
+</p>
+</div>
+
+<div class="card">
+<h3>🌱 Environment & Sustainability</h3>
+<p>
+Tree plantation drives, environmental awareness campaigns,
+and sustainability initiatives.
+</p>
+</div>
+
+<div class="card">
+<h3>👨‍👩‍👧 Community Welfare</h3>
+<p>
+Supporting social welfare activities that improve quality of life
+for underserved communities.
+</p>
+</div>
+
+<div class="card">
+<h3>🩺 Health & Awareness</h3>
+<p>
+Health awareness campaigns and community engagement programs
+focused on well-being.
+</p>
+</div>
+
+<div class="card">
+<h3>👩 Women & Youth Empowerment</h3>
+<p>
+Encouraging leadership, confidence, and growth opportunities
+for women and young people.
+</p>
+</div>
+
+<div class="card">
+<h3>🤝 Volunteer Programs</h3>
+<p>
+Building a network of volunteers who want to contribute
+towards meaningful social change.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="founder" class="founder">
+
+<h2 class="section-title">Founder</h2>
+
+<div class="founder-card">
+
+<div class="avatar">HK</div>
+
+<h2>Himanshu Kumar</h2>
+
+<p style="margin-top:15px; line-height:1.9;">
+Himanshu Kumar is the Founder of Naya Savera Foundation.
+Driven by a passion for social impact and community development,
+he established the foundation with the vision of creating positive
+and lasting change through collective action, volunteering,
+and community engagement.
+</p>
+
+<a class="linkedin"
+href="https://www.linkedin.com/in/himanshu-kumar-017209245/"
+target="_blank">
+Connect on LinkedIn
+</a>
+
+</div>
+
+</section>
+
+<section id="contact" class="contact">
+
+<h2 class="section-title">Contact Us</h2>
+
+<div class="contact-box">
+
+<p>📍 Pune, Maharashtra, India</p>
+
+<p>📧 nayasaverafoundation@gmail.com</p>
+
+<p>📞 +91 9307173416</p>
+
+<p>
+Interested in volunteering, collaborating, or supporting our initiatives?
+Let's connect and create impact together.
+</p>
+
+</div>
+
+</section>
+
+<footer>
+
+<h3>🌅 Naya Savera Foundation</h3>
+
+<p>
+Empowering Lives, Inspiring Change
+</p>
+
+<br>
+
+<p>
+© 2026 Naya Savera Foundation. All Rights Reserved.
+</p>
+
+</footer>
+
+</body>
+</html>
